@@ -18,7 +18,7 @@ function App() {
 
         <header className="App-header">
           <Nav />
-          <img src={logo} className="App-logo" alt="logo" />
+          {/* <img src={logo} className="App-logo" alt="logo" />
 
           <a
             className="App-link"
@@ -27,7 +27,7 @@ function App() {
             rel="noopener noreferrer"
           >
             Learn React
-          </a>
+          </a> */}
 
 
           <Switch>
