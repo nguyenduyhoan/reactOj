@@ -3,6 +3,9 @@ import './App.scss';
 import ListTodo from './Todos/ListTodo';
 import Home from '../store/Home';
 import Nav from './Nav/Nav';
+import { AxiosProvider, Request, Get, Delete, Head, Post, Put, Patch, withAxios } from "react-axios";
+
+
 import {
   BrowserRouter,
   RouterProvider,
@@ -10,6 +13,7 @@ import {
   Link,
   Switch,
 } from "react-router-dom";
+
 
 function App() {
   return (
@@ -37,8 +41,8 @@ function App() {
             <Route path="/Todos">
               <ListTodo />
             </Route>
-            <Route>
-
+            <Route >
+             
             </Route>
           </Switch>
 

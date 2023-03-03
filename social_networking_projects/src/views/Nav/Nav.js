@@ -10,7 +10,7 @@ class Nav extends React.Component {
             <div class="topnav">
                 <Link to="/"></Link>
                 <Link to="/Todos"></Link>
-                <Link to="about"></Link>
+                <Link to="/Homes"></Link>
             </div>
         )
     }
